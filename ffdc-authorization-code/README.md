@@ -7,7 +7,7 @@ This sample client application is an implementation of the OAuth2 Authorization 
 
 1. Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the **Forex Spot Trade Capture** API. Use `https://localhost:4000/callback` as the reply URL.
 2. Clone the current project.
-3. Copy `src/appsettings.json.sample` to `src/appsettings.json`, open it, and enter `<%YOUR-CLIENT-ID%>`, and `<%YOUR-SECRET-KEY%>` of the application created at the step 1.  
+3. open `src/appsettings.json`, and enter `<%YOUR-CLIENT-ID%>`, and `<%YOUR-SECRET-KEY%>` of the application created at the step 1.  
 
 > The `accessTokenEndpoint` and `authorizationEndpoint` are the access token and authorization endpoints provided by the [Discovery service](https://developer.fusionfabric.cloud/documentation?workspace=FusionCreator%20Developer%20Portal&board=Home&uri=oauth2-grants.html#discovery-service) of the **Fusion**Fabric.cloud Developer Portal.
 
@@ -25,4 +25,4 @@ This sample client application is an implementation of the OAuth2 Authorization 
 
 The home page of this sample application is displayed.
 
-8. (Optional) Click **List Forex Spot Trades** in the home page to get the list of the Forex Spot trades, from the **Forex Spot for Trade Capture** API.
+8. Add the Static Data for Trade Capture API to your FFDC App.

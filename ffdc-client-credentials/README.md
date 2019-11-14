@@ -8,7 +8,7 @@ This sample client application is an implementation of the OAuth2 Client Credent
  
 1. Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the **Referential Data** API. Use `*` as the reply URL.
 2. Clone the current project.
-3. Copy `src/appsettings.json.sample` to `src/appsettings.json`, open it and enter `<%YOUR-CLIENT-ID%>`, and `<%YOUR-SECRET-KEY%>` of the application created at the step 1.
+3. Open `src/appsettings.json`, and enter `<%YOUR-CLIENT-ID%>`, and `<%YOUR-SECRET-KEY%>` of the application created at the step 1.
 
 > The  `accessTokenEndpoint` is the token endpoint provided by the [Discovery service](https://developer.fusionfabric.cloud/documentation?workspace=FusionCreator%20Developer%20Portal&board=Home&uri=oauth2-grants.html#discovery-service) of the **Fusion**Fabric.cloud Developer Portal.
 
